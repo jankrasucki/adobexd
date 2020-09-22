@@ -1,0 +1,131 @@
+body
+{
+    background-image: url('background.jpg');
+}
+.container
+{
+    width: 99%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+/*.header__text
+{
+    font-family: 'Poppins';
+}
+.header--right
+{
+    text-align: right;
+}
+.header--left
+{
+    text-align: left;
+}*/
+.header--big
+{
+    font-size: 47pt;
+    font-weight: bold;
+}
+.header--blue
+{
+    color: #525FFB;
+}
+.btn
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn--blue
+{
+    border: #525FFB solid 3px;
+    color: #525FFB;
+}
+.btn--darkBlue
+{
+    border: rgb(56, 8, 100) solid 3px;
+    background-color: rgb(56, 8, 100);
+    color: white;
+}
+.btn--oval
+{
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn--right
+{
+    float: right;
+}
+.btn--space
+{
+    margin-left: 35px;
+}
+
+.top h1
+{
+    font-size: 35pt;
+}
+/*.email
+{
+    border-radius: 10px;
+    font-size: 13pt;
+    width: 200px;
+    height: 20px;
+    padding: 7px;
+}*/
+.center 
+{
+    text-align: center;
+}
+.center h2
+{
+    font-size: 25pt;   
+}
+.center__left
+{
+    color:white;
+    background-color: rgb(56, 8, 100);
+    float: left;
+}
+.center__middle
+{
+    color: black;
+    background-color: rgb(192, 226, 226);
+    float: left;
+}
+.center__right
+{
+    background-color: coral;
+    color: black;
+    float: left;
+}
+.center--size
+{
+    padding: 10px;
+    width: 240px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.schedule
+{
+    clear: both;
+}
+.trust
+{
+    text-align: center;
+}
+.trust h3
+{
+    text-align: center;
+    color: #525FFB;
+    font-weight: bold;
+    font-size: 60pt;
+}
+.footer
+{
+    text-align: center;
+}
