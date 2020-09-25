@@ -12,8 +12,8 @@ body
 @font-face {
     font-family: 'Poppins';
     src:
-        url('/fonts/Poppins-Black.woff') format('woff'),
-        url('/fonts/Poppins-Black.woff2') format('woff2');
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
