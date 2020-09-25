@@ -1,0 +1,401 @@
+html
+{
+    font-size: 10px;
+}
+body
+{
+    background-image: url('../bg.png');
+    /*width: 1920px;
+    margin-left: 178px;
+    margin-right: 130px;*/
+}
+@font-face {
+    font-family: 'Poppins';
+    src:
+        url('/fonts/Poppins-Black.woff') format('woff'),
+        url('/fonts/Poppins-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face
+{
+    font-family: 'Poppins';
+    src: url("/fonts/Poppins-Bold.woff") format("woff"),
+         url("/fonts/Poppins-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face
+{
+    font-family: 'Poppins';
+    src: url("/fonts/Poppins-ExtraBold.woff") format("woff"),
+         url("/fonts/Poppins-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src:
+        url('/fonts/Poppins-SemiBold.woff') format('woff'),
+        url('/fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face
+{
+    font-family: 'Muli';
+    src: url("/fonts/Muli.woff") format("woff"),
+         url("/fonts/Muli.woff2") format("woff2")
+}
+@font-face
+{
+    font-family: 'Muli';
+    src: url("/fonts/Muli-Bold.woff") format("woff"),
+         url("/fonts/Muli-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face
+{
+    font-family: 'Muli';
+    src: url("/fonts/Muli-Light.woff") format("woff"),
+         url("/fonts/Muli-Light.woff2") format("woff2");
+    font-weight: 300;
+}
+.container
+{
+    font-family: 'Poppins';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 450px;
+    /*width: 1920px;
+    margin-left: 178px;
+    margin-right: 130px;
+    width: 1612px;*/
+    margin: auto;
+}
+
+/*.header__text
+{
+    font-family: 'Poppins';
+}
+.header--right
+{
+    text-align: right;
+}
+.header--left
+{
+    text-align: left;
+}*/
+.page-header 
+{
+    display: flex;
+    flex-direction: row;
+}
+.header__text
+{
+    font-size: 47px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 301px;
+}
+.header--blue
+{
+    color: #525FFB;
+    text-decoration: none;
+}
+.header--right
+{
+    margin-top: 56px;
+    margin-left: auto;
+    align-self: baseline;
+}
+.btn
+{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn__text
+{
+    font-family: 'Muli';
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn__text--try
+{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+.btn--blue
+{
+    border: #525FFB solid;
+    stroke-width: 2px;
+    color: #525FFB;
+}
+.btn--bg
+{
+    background-color: #525FFB;
+    color: white;
+}
+.btn--oval
+{
+    border-radius: 40px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.9rem;
+}
+/*.btn--right
+{
+    float: right;
+}*/
+.btn--space
+{
+    margin-left: 35px;
+}
+p
+{
+    font-size: 2rem;
+    font-family: 'Muli';
+}
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+}
+.top p
+{
+        font-size: 2rem;
+        font-family: 'Muli';
+        font-weight: bold;
+        color: #B1AAAA;   
+}
+.top header
+{
+    color: #1E1C24;
+    font-weight: 800;
+    font-size: 7rem;
+}
+.top__text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.top img
+{
+    margin-bottom: 283px;
+}
+.btn_and_area_align
+{
+    display: flex;
+    align-items: baseline;
+}
+.email
+{
+    resize: none;
+    border-radius: 40px;
+    font-size: 17px;
+    width: 396.67px;
+    padding: 10px;
+    display: inline-block;
+}
+.center 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.center img
+{
+    width: 269.33px;
+    height: 220.12px;
+    padding-top: 50.26px;
+}
+.center p
+{
+    font-family: 'Muli';
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: 2.7rem;
+    margin-right: 2.7rem;
+}
+.center__header
+{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 132px;
+    color: #1E1C24;
+}
+.center__text
+{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    color: #1E1C24;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.center__text--white
+{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    color:white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.center__left
+{
+    color:white;
+    background-color: #525FFB;
+}
+.center__middle
+{
+    color: #1E1C24;
+    background-color: #E9F0FF;
+}
+.center__right
+{
+    background-color: #ffe7aa;
+    color: #1E1C24;
+}
+.center--size
+{
+    width: 363.72px;
+    height: 476.29px;
+    border-radius: 15px;
+    margin-bottom: 335.71px;
+}
+.center--margin
+{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.schedule
+{
+    display: flex;
+}
+.schedule__header
+{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #1E1C24;
+}
+.schedule p
+{
+    font-family: 'Muli';
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #B1AAAA; 
+}
+.schedule__text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 56px;
+    margin-bottom: 427px;
+}
+.schedule img
+{
+    align-self: flex-start;
+}
+.app
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.app__text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 35px;
+}
+.app header
+{
+    font-size: 5rem;
+    font-weight: bold; 
+    color: #1E1C24;  
+}
+.app p
+{
+    font-family: 'Muli';
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #B1AAAA; 
+}
+.app__icons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.app img
+{
+    margin-bottom: 225px;
+}
+.trust
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.trust__img1
+{
+    margin-right: auto;
+}
+.trust__img2
+{
+    margin-left: auto;
+}
+.trust__header
+{
+    font-size: 5rem;
+    font-weight: bold;
+    height: 72px;
+    color: #1E1C24;
+}
+.trust__num
+{
+    text-align: center;
+    color: #525FFB;
+    font-size: 15rem;
+    font-weight: 800;
+}
+.footer
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.footer__header
+{
+    font-size: 5rem;
+    font-weight: bold;
+    height: 72px;
+    color: #1E1C24;
+}
+.footer p
+{
+    font-family: 'Muli';
+    font-weight: 300;
+    font-size: 27px;
+    color: #1E1C24;
+}
+.footer .btn_and_area_align
+{
+    justify-content: center;
+    align-items: center;
+}
