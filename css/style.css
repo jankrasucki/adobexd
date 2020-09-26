@@ -5,15 +5,18 @@ html
 body
 {
     background-image: url('../bg.png');
+    
     /*width: 1920px;
     margin-left: 178px;
     margin-right: 130px;*/
+    max-width: 1920px;
+    min-width: 320px;
 }
 @font-face {
     font-family: 'Poppins';
     src:
-        url('../fonts/Poppins-Black.woff') format('woff'),
-        url('../fonts/Poppins-Black.woff2') format('woff2');
+        url('/fonts/Poppins-Black.woff') format('woff'),
+        url('/fonts/Poppins-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -67,6 +70,23 @@ body
          url("/fonts/Muli-Light.woff2") format("woff2");
     font-weight: 300;
 }
+/*@media all and (max-width: 1920px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 1920px)
+{   
+    .container
+    {
+        width: calc (1920px - )
+    }
+}
+ */ 
 .container
 {
     font-family: 'Poppins';
@@ -74,12 +94,15 @@ body
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    min-width: 450px;
+    min-width: 500px;
+    margin: 0 auto;
+    max-width: 1612px;
+    box-sizing: border-box;
     /*width: 1920px;
     margin-left: 178px;
     margin-right: 130px;
     width: 1612px;*/
-    margin: auto;
+
 }
 
 /*.header__text
@@ -98,6 +121,7 @@ body
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .header__text
 {
@@ -172,13 +196,18 @@ p
 {
     display: flex;
     flex-direction: row;
+   
+}
+.top--width
+{
+    max-width: 924px;
 }
 .top p
 {
-        font-size: 2rem;
-        font-family: 'Muli';
-        font-weight: bold;
-        color: #B1AAAA;   
+    font-size: 2rem;
+    font-family: 'Muli';
+    font-weight: bold;
+    color: #B1AAAA;   
 }
 .top header
 {
@@ -191,15 +220,18 @@ p
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+    flex-wrap: wrap;
 }
-.top img
+.top__img
 {
+    max-width: 897px;
     margin-bottom: 283px;
 }
 .btn_and_area_align
 {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 .email
 {
@@ -215,6 +247,7 @@ p
     display: flex;
     justify-content: center;
     text-align: center;
+  
 }
 .center img
 {
@@ -286,9 +319,11 @@ p
 .schedule
 {
     display: flex;
+   
 }
 .schedule__header
 {
+    max-width: 552px;
     font-size: 5rem;
     font-weight: bold;
     color: #1E1C24;
@@ -305,8 +340,10 @@ p
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    
     margin-left: 56px;
     margin-bottom: 427px;
+    max-width: 552px;
 }
 .schedule img
 {
@@ -316,13 +353,16 @@ p
 {
     display: flex;
     flex-direction: row-reverse;
+    
 }
 .app__text
 {
     display: flex;
     flex-direction: column;
+   /* flex-wrap: wrap;*/
     align-items: baseline;
     margin-right: 35px;
+    max-width: 552px;
 }
 .app header
 {
@@ -342,6 +382,7 @@ p
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .app img
 {
@@ -352,6 +393,7 @@ p
     text-align: center;
     display: flex;
     flex-direction: column;
+    
 }
 .trust__img1
 {
