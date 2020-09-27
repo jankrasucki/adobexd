@@ -11,6 +11,8 @@ body
     margin-right: 130px;*/
     max-width: 1920px;
     min-width: 320px;
+    width: 100%;
+    margin: 0;
 }
 @font-face {
     font-family: 'Poppins';
@@ -94,14 +96,15 @@ body
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    min-width: 500px;
+    /*min-width: 500px;*/
     margin: 0 auto;
-    max-width: 1612px;
+    /*max-width: 1612px;*/
     box-sizing: border-box;
     /*width: 1920px;
     margin-left: 178px;
     margin-right: 130px;
     width: 1612px;*/
+    width: 98%;
 
 }
 
@@ -147,6 +150,10 @@ body
     cursor: pointer;
     display: inline-block;
 }
+/*.try__top__right
+{
+    width: 85%;
+}*/
 .btn__text
 {
     font-family: 'Muli';
@@ -158,6 +165,10 @@ body
     font-size: 23px;
     font-weight: 600;
     padding: 1.5rem;
+}
+.taskia
+{
+    width: 12%;
 }
 .btn--blue
 {
@@ -201,6 +212,7 @@ p
 .top--width
 {
     max-width: 924px;
+    width: 48%;
 }
 .top p
 {
@@ -226,6 +238,7 @@ p
 {
     max-width: 897px;
     margin-bottom: 283px;
+    width: 48%;
 }
 .btn_and_area_align
 {
@@ -247,7 +260,8 @@ p
     display: flex;
     justify-content: center;
     text-align: center;
-  
+    width: 90%;
+    margin: auto;
 }
 .center img
 {
@@ -270,6 +284,11 @@ p
     text-align: center;
     height: 132px;
     color: #1E1C24;
+    width: 47%;
+    margin: auto;
+    max-width: 904px;
+    margin-bottom: 60px;
+    
 }
 .center__text
 {
@@ -319,6 +338,7 @@ p
 .schedule
 {
     display: flex;
+    margin-bottom: 200px;
    
 }
 .schedule__header
@@ -340,20 +360,24 @@ p
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    
     margin-left: 56px;
     margin-bottom: 427px;
     max-width: 552px;
+    width: 29%;
+    margin: auto;
 }
 .schedule img
 {
     align-self: flex-start;
+    max-width: 726px;
+    width: 38%;
+    margin: auto;
 }
 .app
 {
     display: flex;
     flex-direction: row-reverse;
-    
+    margin-bottom: 200px;
 }
 .app__text
 {
@@ -363,6 +387,8 @@ p
     align-items: baseline;
     margin-right: 35px;
     max-width: 552px;
+    width: 28%;
+    margin: auto;
 }
 .app header
 {
@@ -377,16 +403,19 @@ p
     font-size: 1.8rem;
     color: #B1AAAA; 
 }
+.efficient
+{
+    margin-bottom: 225px;
+    width: 37%;
+    margin: auto;
+    max-width: 717px;
+}
 .app__icons
 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-.app img
-{
-    margin-bottom: 225px;
 }
 .trust
 {
@@ -409,6 +438,9 @@ p
     font-weight: bold;
     height: 72px;
     color: #1E1C24;
+    max-width: 1072px;
+    width: 55%;
+    margin: auto;
 }
 .trust__num
 {
@@ -416,6 +448,9 @@ p
     color: #525FFB;
     font-size: 15rem;
     font-weight: 800;
+    max-width: 1072px;
+    width: 55%;
+    margin: auto;
 }
 .footer
 {
@@ -428,6 +463,10 @@ p
     font-weight: bold;
     height: 72px;
     color: #1E1C24;
+    max-width: 787px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 .footer p
 {
@@ -435,6 +474,10 @@ p
     font-weight: 300;
     font-size: 27px;
     color: #1E1C24;
+    max-width: 552px;
+    width: 28%;
+    margin: auto;
+    margin-bottom: 50px;
 }
 .footer .btn_and_area_align
 {
