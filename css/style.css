@@ -80,15 +80,56 @@ body
         flex-direction: column;
         justify-content: center;
     }
-}
-@media all and (min-width: 320px) and (max-width: 1920px)
+}*/
+@media all and (min-width: 1600px) and (max-width: 1920px)
 {   
-    .container
+    html
     {
-        width: calc (1920px - )
+        font-size: 9px;
     }
 }
- */ 
+@media all and (min-width: 1440px) and (max-width: 1600px)
+{
+    html
+    {
+        font-size: 8.5px;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1440px)
+{
+    html
+    {
+        font-size: 5.5px;
+    }
+}
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+    html
+    {
+        font-size: 4px;
+    }
+}
+@media all and (min-width: 640px) and (max-width: 800px)
+{
+    html
+    {
+        font-size: 3.3px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 640px)
+{
+    html
+    {
+        font-size: 2.8px;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 480px)
+{
+    html
+    {
+        font-size: 1.5px;
+    }
+}
 .container
 {
     font-family: 'Poppins';
@@ -107,7 +148,10 @@ body
     width: 98%;
 
 }
-
+.main
+{
+    width: inherit;
+}
 /*.header__text
 {
     font-family: 'Poppins';
@@ -126,12 +170,17 @@ body
     flex-direction: row;
     flex-wrap: wrap;
 }
+figure
+{
+    margin: 0;
+    padding: 0;
+}
 .header__text
 {
-    font-size: 47px;
+    font-size: 4.7rem;
     font-weight: 800;
-    margin-top: 50px;
-    margin-bottom: 301px;
+    margin-top: 5rem;
+    margin-bottom: 3.01rem;
 }
 .header--blue
 {
@@ -140,7 +189,7 @@ body
 }
 .header--right
 {
-    margin-top: 56px;
+    margin-top: 5.6rem;
     margin-left: auto;
     align-self: baseline;
 }
@@ -158,11 +207,11 @@ body
 {
     font-family: 'Muli';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .btn__text--try
 {
-    font-size: 23px;
+    font-size: 2.3rem;
     font-weight: 600;
     padding: 1.5rem;
 }
@@ -173,7 +222,7 @@ body
 .btn--blue
 {
     border: #525FFB solid;
-    stroke-width: 2px;
+    stroke-width: 0.2rem;
     color: #525FFB;
 }
 .btn--bg
@@ -183,7 +232,7 @@ body
 }
 .btn--oval
 {
-    border-radius: 40px;
+    border-radius: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
@@ -195,7 +244,7 @@ body
 }*/
 .btn--space
 {
-    margin-left: 35px;
+    margin-left: 3.5rem;
 }
 p
 {
@@ -237,8 +286,11 @@ p
 .top__img
 {
     max-width: 897px;
-    margin-bottom: 283px;
-    width: 48%;
+    margin-bottom: 28.3rem;
+    width: 89.7rem;
+    height: 82.6rem;
+    margin-left: 10rem;
+    /*width: 48%;*/
 }
 .btn_and_area_align
 {
@@ -250,9 +302,9 @@ p
 {
     resize: none;
     border-radius: 40px;
-    font-size: 17px;
-    width: 396.67px;
-    padding: 10px;
+    font-size: 1.7rem;
+    width: 39.667rem;
+    padding: 1rem;
     display: inline-block;
 }
 .center 
@@ -260,14 +312,14 @@ p
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 90%;
+    width: 62%;
     margin: auto;
 }
 .center img
 {
-    width: 269.33px;
-    height: 220.12px;
-    padding-top: 50.26px;
+    width: 26.933rem;
+    height: 22.012rem;
+    padding-top: 5.026rem;
 }
 .center p
 {
@@ -282,12 +334,12 @@ p
     font-size: 5rem;
     font-weight: bold;
     text-align: center;
-    height: 132px;
+    max-height: 132px;
     color: #1E1C24;
     width: 47%;
     margin: auto;
     max-width: 904px;
-    margin-bottom: 60px;
+    margin-bottom: 2rem;
     
 }
 .center__text
@@ -296,8 +348,8 @@ p
     text-align: center;
     font-weight: 800;
     color: #1E1C24;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 .center__text--white
 {
@@ -305,8 +357,8 @@ p
     text-align: center;
     font-weight: 800;
     color:white;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 .center__left
 {
@@ -325,10 +377,10 @@ p
 }
 .center--size
 {
-    width: 363.72px;
-    height: 476.29px;
-    border-radius: 15px;
-    margin-bottom: 335.71px;
+    width: 36.372rem;
+    height: 47.629rem;
+    border-radius: 1.5rem;
+    margin-bottom: 33.571rem;
 }
 .center--margin
 {
@@ -338,7 +390,7 @@ p
 .schedule
 {
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
    
 }
 .schedule__header
@@ -360,8 +412,8 @@ p
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-left: 56px;
-    margin-bottom: 427px;
+    margin-left: 5.6rem;
+    margin-bottom: 4.27rem;
     max-width: 552px;
     width: 29%;
     margin: auto;
@@ -370,14 +422,16 @@ p
 {
     align-self: flex-start;
     max-width: 726px;
-    width: 38%;
+    width: 72.6rem;
+    height: 45.4rem;
+    /*width: 38%;*/
     margin: auto;
 }
 .app
 {
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 .app__text
 {
@@ -385,7 +439,7 @@ p
     flex-direction: column;
    /* flex-wrap: wrap;*/
     align-items: baseline;
-    margin-right: 35px;
+    margin-right: 3.5rem;
     max-width: 552px;
     width: 28%;
     margin: auto;
@@ -405,10 +459,22 @@ p
 }
 .efficient
 {
-    margin-bottom: 225px;
-    width: 37%;
+    margin-bottom: 22.5rem;
+    /*width: 37%;*/
     margin: auto;
     max-width: 717px;
+    width: 71.7rem;
+    height: 54.7rem;
+}
+#google
+{
+    width: 12.2rem;
+    height: 8.1rem;
+}
+#apple
+{
+    width: 4.6rem;
+    height: 5.5rem;
 }
 .app__icons
 {
@@ -427,20 +493,25 @@ p
 .trust__img1
 {
     margin-right: auto;
+    width: 14rem;
+    height: 14rem;
 }
 .trust__img2
 {
     margin-left: auto;
+    width: 10.9rem;
+    height: 10.9rem;
 }
 .trust__header
 {
     font-size: 5rem;
     font-weight: bold;
-    height: 72px;
+    max-height: 72px;
     color: #1E1C24;
     max-width: 1072px;
     width: 55%;
     margin: auto;
+    margin-bottom: 5rem;
 }
 .trust__num
 {
@@ -454,30 +525,31 @@ p
 }
 .footer
 {
-    margin-top: 100px;
+    margin-top: 10rem;
     text-align: center;
+    width: inherit;
 }
 .footer__header
 {
     font-size: 5rem;
     font-weight: bold;
-    height: 72px;
+    max-height: 72px;
     color: #1E1C24;
     max-width: 787px;
     width: 40%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 7rem;
 }
 .footer p
 {
     font-family: 'Muli';
     font-weight: 300;
-    font-size: 27px;
+    font-size: 2.7rem;
     color: #1E1C24;
     max-width: 552px;
     width: 28%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .footer .btn_and_area_align
 {
