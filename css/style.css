@@ -241,6 +241,7 @@ body
     height: 82.6rem;
     margin: auto;
     margin-bottom: 10rem;
+    margin-top: 10rem;
     }
     html .center
     {
@@ -327,6 +328,7 @@ body
     width: 73.7rem;
     height: 82.6rem;
     margin: auto;
+    margin-top: 10rem;
     margin-bottom: 10rem;
     }
     html .center
@@ -411,6 +413,7 @@ body
     }
     html .top__img
     {
+    margin-top: 10rem;
     width: 73.7rem;
     height: 82.6rem;
     margin: auto;
