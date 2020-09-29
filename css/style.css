@@ -848,9 +848,11 @@ p
 }
 .trust__img1
 {
-    margin-left: 110rem;
+    
     width: 14rem;
     height: 14rem;
+    align-self: flex-end;
+    margin-right: 15rem;
 }
 .trust__img2
 {
@@ -868,7 +870,8 @@ p
 {
     width: 8.8rem;
     height: 8.8rem;
-    margin-left: 85rem;
+    align-self: flex-end;
+    margin-right: 40rem;
 }
 .trust__header
 {
