@@ -2,17 +2,29 @@ html
 {
     font-size: 10px;
 }
+h1
+{
+    padding: 0;
+    margin: 0;
+}
+h2
+{
+    padding: 0;
+    margin: 0;
+}
 body
 {
-    background-image: url('../bg.png');
+    background-image: url('../img/bg.png');
     
     /*width: 1920px;
     margin-left: 17.8rem;
-    margin-right: 13rem;*/
-    min-width: 320px;
-    width: 98%;
-    margin: 0;
-    padding: 0.8rem;
+    margin-right: 13rem;
+    min-width: 320px;*/
+    width: 84%;
+    margin-left: 9%;
+    margin-right: 7%;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 @font-face {
     font-family: 'Poppins';
@@ -77,140 +89,22 @@ body
         url('../fonts/Muli-Light.woff2') format('woff2');
     font-weight: 300;
 }
-@media all and (min-width: 3501px) and (max-width: 4096px)
+@media all and (min-width: 240px) and (max-width: 5740px)
 {
     html
     {
-        font-size: 28px;
+        font-size: calc(100vw / 165);
     }
 }
-@media all and (min-width: 3072px) and (max-width: 3500px)
-{
-    html
-    {
-        font-size: 22px;
-    }
-}
-@media all and (min-width: 2501px) and (max-width: 3071px)
-{
-    html
-    {
-        font-size: 18px;
-    }
-}
-@media all and (min-width: 1920px) and (max-width: 2500px)
-{
-    html
-    {
-        font-size: 13.7px
-    }
-}
-@media all and (min-width: 1600px) and (max-width: 1919px)
-{   
-    html
-    {
-        font-size: 11.1px;
-    }
-}
-@media all and (min-width: 1440px) and (max-width: 1599px)
-{
-    html
-    {
-        font-size: 10px;
-    }
-}
-@media all and (min-width: 1250px) and (max-width: 1399px)
-{
-    html
-    {
-        font-size: 8.5px;
-    }
-   /* html .center 
-    {
-        flex-wrap: nowrap;
-    }*/
-}
-@media all and (min-width: 1078px) and (max-width: 1250px)
-{
-    html
-    {
-        font-size: 7.3px;
-    }
-}
-@media all and (min-width: 1023px) and (max-width: 1077px)
-{
-    html
-    {
-        font-size: 6.9px;
-    }
-}
-@media all and (min-width: 989px) and (max-width: 1022px)
-{
-    html
-    {
-        font-size: 6.7px;
-    }
-}
-@media all and (min-width: 929px) and (max-width: 988px)
-{
-    html
-    {
-        font-size: 6.3px;
-    }
-}
-@media all and (min-width: 889px) and (max-width: 928px)
-{
-    html
-    {
-        font-size: 6px;
-    }
-}
-@media all and (min-width: 801px) and (max-width: 888px)
-{
-    html
-    {
-        font-size: 5.4px;
-    }
-}
-/*@media all and (min-width: 730px) and (max-width: 800px)
-{
-    html
-    {
-        font-size: 5px;
-    }
-}
-@media all and (min-width: 640px) and (max-width: 730px)
-{
-    html
-    {
-        font-size: 4.5px;
-    }
-}
-@media all and (min-width: 480px) and (max-width: 640px)
-{
-    html
-    {
-        font-size: 2.8px;
-    }
-}
-@media all and (min-width: 320px) and (max-width: 480px)
-{
-    html
-    {
-        font-size: 1.5px;
-    }
-}
-*/
-
 @media all and (min-width: 640px) and (max-width: 800px)
 {
     html
     {
-        font-size: 8px;
+        font-size: 7.5px;
     }
     body
     {
-        width: 98%;
+        width: 84%;
     }
     html .container
     {
@@ -294,11 +188,11 @@ body
 {
     html
     {
-        font-size: 6px;
+        font-size: 5.5px;
     }
     body
     {
-        width: 98%;
+        width: 84%;
     }
     html .container
     {
@@ -378,15 +272,17 @@ body
         margin: auto;
     }
 }   
-@media all and (min-width: 320px) and (max-width: 478px)
+@media all and (min-width: 240px) and (max-width: 478px)
 {
     html
     {
         font-size: 4px;
+        
     }
     body
     {
-        width: 98%;
+        width: 84%;
+        
     }
     html .container
     {
@@ -413,10 +309,10 @@ body
     }
     html .top__img
     {
-    margin-top: 10rem;
     width: 73.7rem;
     height: 82.6rem;
     margin: auto;
+    margin-top: 10rem;
     margin-bottom: 10rem;
     }
     html .center
@@ -466,18 +362,7 @@ body
         margin: auto;
     }
 }
-/*@media all and (min-width: 640px) and (max-width: 730px)
-{
-    
-}
-@media all and (min-width: 480px) and (max-width: 640px)
-{
-   
-}
-@media all and (min-width: 320px) and (max-width: 480px)
-{
-    
-}*/
+
 .container
 {
     font-family: 'Poppins';
@@ -494,7 +379,6 @@ body
     margin-right: 130px;
     width: 1612px;*/
     width: 100%;
-
 }
 .main
 {
@@ -563,10 +447,10 @@ body
     font-weight: 600;
     padding: 1.5rem;
 }
-.taskia
+/*.taskia
 {
     width: 12%;
-}
+}*/
 .btn--blue
 {
     border: #525FFB solid;
@@ -619,10 +503,10 @@ p
     font-weight: bold;
     color: #B1AAAA;   
 }
-.top header
+.top h1
 {
     color: #1E1C24;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 7rem;
 }
 .top__text
@@ -636,8 +520,8 @@ p
 {
     /*max-width: 897px;*/
     margin-bottom: 28.3rem;
-    width: 73.7rem;
-    height: 82.6rem;
+    width: 60.7rem;
+    height: 60.7rem;
     margin-left: 5rem;
     /*width: 48%;*/
 }
@@ -662,7 +546,7 @@ p
     
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 .center img
@@ -736,8 +620,8 @@ p
 }
 .center--margin
 {
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .schedule
 {
@@ -800,7 +684,7 @@ p
     width: 28%;
     margin: auto;
 }
-.app header
+.app__header
 {
     font-size: 5rem;
     font-weight: bold; 
@@ -822,12 +706,12 @@ p
     width: 71.7rem;
     height: 54.7rem;
 }
-#google
+.google
 {
     width: 12.2rem;
     height: 8.1rem;
 }
-#apple
+.apple
 {
     width: 4.6rem;
     height: 5.5rem;
