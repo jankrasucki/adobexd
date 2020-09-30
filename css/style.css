@@ -1,7 +1,7 @@
-html
+/*html
 {
     font-size: 10px;
-}
+}*/
 h1
 {
     padding: 0;
@@ -89,194 +89,18 @@ body
         url('../fonts/Muli-Light.woff2') format('woff2');
     font-weight: 300;
 }
-@media all and (min-width: 240px) and (max-width: 5740px)
+@media all and (min-width: 800px)
 {
     html
     {
         font-size: calc(100vw / 165);
     }
 }
-@media all and (min-width: 640px) and (max-width: 800px)
+@media all and (max-width: 800px)
 {
     html
     {
-        font-size: 7.5px;
-    }
-    body
-    {
-        width: 84%;
-    }
-    html .container
-    {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    html .page-header
-    {
-        flex-wrap: wrap;
-    }
-    html .header__text
-    {
-        margin-top: 5rem;
-        margin-bottom: 3.01rem;
-    }
-    html .top
-    {
-        flex-wrap: wrap;
-    }
-    html .top--width
-    {
-        width: auto;
-        margin: auto;
-    }
-    html .top__img
-    {
-    width: 73.7rem;
-    height: 82.6rem;
-    margin: auto;
-    margin-bottom: 10rem;
-    margin-top: 10rem;
-    }
-    html .center
-    {
-        flex-wrap: wrap;
-        width: 64%;
-    }
-    html .center--size
-    {
-        width: 40.372rem;
-        height: 47.629rem;
-        margin-bottom: 10rem;
-    }
-    html .top__text
-    {
-        flex-wrap: wrap;
-    }
-    html .schedule
-    {
-        flex-wrap: wrap;
-        margin-bottom: 10rem;
-    }
-    html .schedule__text
-    {
-        flex-wrap: wrap;
-        width: auto;
-        margin: auto;
-        margin-top: 10rem;
-    }
-    html .app
-    {
-        flex-wrap: wrap;
-        margin-bottom: 10rem;
-    }
-    html .app__text
-    {
-        flex-wrap: wrap;
-        width: auto;
-        margin: auto;
-    }
-    html .trust
-    {
-        flex-wrap: wrap;
-    }
-    html .trust__num
-    {
-        margin: auto;
-    }
-}
-@media all and (min-width: 479px) and (max-width: 639px)
-{
-    html
-    {
-        font-size: 5.5px;
-    }
-    body
-    {
-        width: 84%;
-    }
-    html .container
-    {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    html .page-header
-    {
-        flex-wrap: wrap;
-    }
-    html .header__text
-    {
-        margin-top: 5rem;
-        margin-bottom: 3.01rem;
-    }
-    html .top
-    {
-        flex-wrap: wrap;
-    }
-    html .top--width
-    {
-        width: auto;
-        margin: auto;
-    }
-    html .top__img
-    {
-    width: 73.7rem;
-    height: 82.6rem;
-    margin: auto;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    }
-    html .center
-    {
-        flex-wrap: wrap;
-        width: 64%;
-    }
-    html .center--size
-    {
-        width: 40.372rem;
-        height: 47.629rem;
-        margin-bottom: 10rem;
-    }
-    html .top__text
-    {
-        flex-wrap: wrap;
-    }
-    html .schedule
-    {
-        flex-wrap: wrap;
-        margin-bottom: 10rem;
-    }
-    html .schedule__text
-    {
-        flex-wrap: wrap;
-        width: auto;
-        margin: auto;
-        margin-top: 10rem;
-    }
-    html .app
-    {
-        flex-wrap: wrap;
-        margin-bottom: 10rem;
-    }
-    html .app__text
-    {
-        flex-wrap: wrap;
-        width: auto;
-        margin: auto;
-    }
-    html .trust
-    {
-        flex-wrap: wrap;
-    }
-    html .trust__num
-    {
-        margin: auto;
-    }
-}   
-@media all and (min-width: 240px) and (max-width: 478px)
-{
-    html
-    {
-        font-size: 4px;
+        font-size: calc(100vw / 85);
         
     }
     body
