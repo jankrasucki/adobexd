@@ -89,7 +89,7 @@ body
         url('../fonts/Muli-Light.woff2') format('woff2');
     font-weight: 300;
 }
-@media all and (min-width: 800px)
+@media all and (min-width: 801px)
 {
     html
     {
